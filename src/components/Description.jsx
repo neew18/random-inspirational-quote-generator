@@ -1,5 +1,6 @@
 import React from "react";
 import Quote from "./Quote";
+import { Link } from "react-router-dom";
 
 function Description() {
   return (
@@ -17,6 +18,12 @@ function Description() {
         Quote of the day
       </h3>
       <Quote />
+      <Link
+        className=" bg-violet-800 text-white font-semibold py-3 text-center block m-auto mt-10 rounded-lg shadow-lg"
+        to="/generate"
+      >
+        Let's start
+      </Link>
     </main>
   );
 }
