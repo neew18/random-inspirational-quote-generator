@@ -1,13 +1,17 @@
 import React from "react";
 import Header from "./header";
 import Description from "./Description";
+import Footer from "./Footer";
 
 function Home() {
   return (
-    <main className="Home bg-violet-100 p-3">
+    <div className="Home bg-violet-100 p-3">
       <Header />
-      <Description />
-    </main>
+      <main>
+        <Description />
+      </main>
+      <Footer />
+    </div>
   );
 }
 
