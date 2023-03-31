@@ -6,7 +6,7 @@
 }
 
 
-.Home{
+.Home,.GenerateQuotesComponent{
   width:100vw;
   height: 100vh;
 }
