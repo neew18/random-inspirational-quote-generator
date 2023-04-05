@@ -22,7 +22,7 @@ function GenerateQuotesComponent() {
           name="category"
           id="category"
         >
-          <option value="">Category</option>
+          <option className="bg-violet-500" value="">Category</option>
         </select>
         <select
           className="bg-violet-800 px-4 py-2 text-center text-white font-semibold tracking-wide rounded-lg shadow-lg focus:outline-none hover:bg-violet-900 hover:cursor-pointer"
